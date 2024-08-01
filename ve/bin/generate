@@ -1,0 +1,6 @@
+#!/Users/elliotkang/Documents/GitHub/create-llama/ve/bin/python
+import sys
+from app.engine.generate import generate_datasource
+
+if __name__ == '__main__':
+    sys.exit(generate_datasource())
